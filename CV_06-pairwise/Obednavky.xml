@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System name="Obednavky">
+  <Parameters>
+    <Parameter id="0" name="Registrace" type="1">
+      <values>
+        <value>Ano</value>
+        <value>Ne</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="1" name="jmeno_prijemeni" type="1">
+      <values>
+        <value>NULL</value>
+        <value>Pismena</value>
+        <value>Zvlastni_znaki</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="2" name="Destinace" type="1">
+      <values>
+        <value>V EU</value>
+        <value>MIMO EU</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="3" name="Datum_narozeni" type="1">
+      <values>
+        <value>MM/DD/YYYY</value>
+        <value>DD.MM.YYYY</value>
+        <value>YYYY-MM-DD</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="4" name="Sleva" type="1">
+      <values>
+        <value>STUDENT</value>
+        <value>DUCHODCE</value>
+        <value>SLEVOVY_KUPON</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+  </Parameters>
+  <OutputParameters />
+  <Relations />
+  <Constraints />
+</System>
+
